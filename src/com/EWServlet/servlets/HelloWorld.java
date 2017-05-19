@@ -32,7 +32,6 @@ public class HelloWorld extends HttpServlet {
 		String msg= "<html><body><h1 align='center'>Hello world servlet</h1>";
 		msg += "<br> the square root of 4 is: " + sqrt+ "<br></body></html>";
 		out.println(msg);
-		//response.getWriter().append("Served at: ").append(request.getContextPath());
 	}
 
 	/**
@@ -42,5 +41,4 @@ public class HelloWorld extends HttpServlet {
 		// TODO Auto-generated method stub
 		doGet(request, response);
 	}
-
 }
